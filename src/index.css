@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@700;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Cairo", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-display: "Space Grotesk", "Cairo", sans-serif;
+  --color-brand-primary: #ec4899; /* Vibrant Pink / Rose representing party powder */
+  --color-brand-secondary: #06b6d4; /* Vivid Cyan */
+  --color-brand-accent: #8b5cf6; /* Celebration Violet */
+}
+
+/* Custom soft glow for color themes */
+.glow-pink {
+  box-shadow: 0 0 40px rgba(236, 72, 153, 0.35);
+}
+.glow-blue {
+  box-shadow: 0 0 40px rgba(37, 99, 235, 0.35);
+}
+.glow-purple {
+  box-shadow: 0 0 40px rgba(139, 92, 246, 0.35);
+}
+.glow-yellow {
+  box-shadow: 0 0 40px rgba(234, 179, 8, 0.35);
+}
+.glow-green {
+  box-shadow: 0 0 40px rgba(34, 197, 94, 0.35);
+}
+
+/* Text stroke for outrageous bold headline impact */
+.stroke-white-2 {
+  -webkit-text-stroke: 2px rgba(255, 255, 255, 0.9);
+  color: transparent;
+}
+
+.stroke-pink-2 {
+  -webkit-text-stroke: 2px #ec4899;
+  color: transparent;
+}
+
+/* Smooth motion tweaks */
+html {
+  scroll-behavior: smooth;
+  background-color: #0A0A0A;
+}
+body {
+  direction: rtl; /* Set default Arabic RTL layout */
+  background-color: #0A0A0A;
+  color: #FFFFFF;
+}
+

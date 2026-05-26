@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Sofex Celebrations",
+  "description": "صفحة هبوط احترافية لمنتج قارورات الألوان (طفاية مناسبات) سعة 2 كغ من شركة Sofex للأفراح والاحتفالات والمناسبات",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
